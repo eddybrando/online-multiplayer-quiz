@@ -1,0 +1,46 @@
+/* Colors *********************************************************************/
+$color_gray: #3e4146;
+$color_red: #c00;
+/* Font spaces ****************************************************************/
+$font_line_height_regular: 24px;
+$font_size_regular: 22px;
+/******************************************************************************/
+body {
+    font-size: $font_size_regular;
+    line-height: $font_line_height_regular;
+}
+h2 {
+    font-size: $font_size_regular;
+    font-weight: bold;
+}
+.btn {
+    border: 0;
+    font-size: $font_size_regular;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.btn-full {
+    width: 100%;
+}
+.btn-primary {
+    background: $color_gray;
+    i.fa {
+        margin-left: 10px;
+        opacity: .5;
+    }
+}
+.navbar-top {
+    .logo {
+        display: block;
+        float: none;
+        height: 40px;
+        margin: 15px auto;
+    }
+    &.navbar-default {
+        background: transparent;
+        border: 0;
+    }
+}
+.radio label {
+    margin: 5px 0 10px;
+}

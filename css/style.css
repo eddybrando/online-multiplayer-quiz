@@ -1,0 +1,39 @@
+/* Colors *********************************************************************/
+/* Font spaces ****************************************************************/
+/******************************************************************************/
+body {
+  font-size: 22px;
+  line-height: 24px; }
+
+h2 {
+  font-size: 22px;
+  font-weight: bold; }
+
+.btn {
+  border: 0;
+  font-size: 22px;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.btn-full {
+  width: 100%; }
+
+.btn-primary {
+  background: #3e4146; }
+  .btn-primary i.fa {
+    margin-left: 10px;
+    opacity: .5; }
+
+.navbar-top .logo {
+  display: block;
+  float: none;
+  height: 40px;
+  margin: 15px auto; }
+.navbar-top.navbar-default {
+  background: transparent;
+  border: 0; }
+
+.radio label {
+  margin: 5px 0 10px; }
+
+/*# sourceMappingURL=style.css.map */
